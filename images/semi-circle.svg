@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="74px" height="81px" viewBox="0 0 74 81" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="-5.64881475e-13" y="-2.84217094e-13" width="45" height="90"></rect>
+    </defs>
+    <g id="Laptop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-135.000000, -789.000000)">
+            <g id="Group-9" transform="translate(90.000000, 771.000000)">
+                <g id="Group-2" style="mix-blend-mode: multiply;" transform="translate(90.805202, 49.131277) rotate(-39.000000) translate(-90.805202, -49.131277) translate(68.305202, 4.131277)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Rectangle-636"></g>
+                    <path d="M-1.26476607e-12,81 L-1.26476607e-12,81 C19.882251,81 36,64.882251 36,45 C36,25.117749 19.882251,9 -1.26476607e-12,9 C-19.882251,9 -36,25.117749 -36,45 C-36,64.882251 -19.882251,81 -1.26476607e-12,81 L-1.26476607e-12,81 L-1.26476607e-12,81 Z M-45,45 C-45,20.1471863 -24.8528137,-6.11066753e-13 -1.53477231e-12,-6.11066753e-13 C24.8528137,-6.11066753e-13 45,20.1471863 45,45 C45,69.8528137 24.8528137,90 -1.53477231e-12,90 C-24.8528137,90 -45,69.8528137 -45,45 L-45,45 Z" id="Oval-43-Copy" fill="#FFD507" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

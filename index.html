@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="description" content="Malin King Portfolio"/>
+      <meta name="author" content="Malin King">
+      <title>Malin King | Front End Developer & Designer</title>
+
+      <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Open+Sans" rel="stylesheet">
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link rel="stylesheet" type="text/css" href="css/main.css">
+
+      <style type="text/css" media="screen">
+        .container {
+          width: 85%;
+          padding: 5% 0%;
+        }
+
+        .containerFluid {
+          padding: 2rem 2rem 4rem;
+          margin: 2rem 0rem;
+        }
+
+        .aboutSection {
+          width: 65%;
+        }
+
+        .socialContact {
+          position: fixed;
+          top: 45%;
+          left: 10px;
+          z-index: 10;
+          width: 100%;
+          margin: 200px 0 0 0;
+          padding: 0;
+          transform-origin: 0 0;
+          -webkit-transform: rotate(-90deg) translate(0,0);
+          -moz-transform: rotate(-90deg) translate(0,0);
+          -o-transform: rotate(-90deg) translate(0,0);
+          transform: rotate(-90deg) translate(0,0);
+          -webkit-transition: transform 0.3s ease-in;
+          -moz-transition: transform 0.3s ease-in;
+          -o-transition: transform 0.3s ease-in;
+          transition: transform 0.3s ease-in;
+        }
+
+        .socialContact a {
+          font-family: 'Libre Baskerville', serif;
+          font-size: 16px;
+          letter-spacing: 1px;
+          color: black;
+          transition: all 0.2s ease-in-out;
+        }
+
+        .socialContact a:hover {
+          color: #bf77f2;
+          transition: all 0.2s ease-in-out;
+        }
+
+        .headlineIntro {
+          height: 100vh;
+          padding: 0%;
+        }
+
+        .name {
+          text-align: center;
+          padding-top: 30vh;
+          margin: 0px;
+          font-size: 42px;
+          font-family: 'Libre Baskerville', serif;
+          font-weight: 400;
+        }
+
+        .malinKing {
+          color: #bf77f2;
+          text-transform: uppercase;
+          letter-spacing: 4px;
+          font-size: 52px;
+          font-family: 'Libre Baskerville', serif;
+          font-weight: 700;
+        }
+
+        #jobTitle {
+          text-align: center;
+          font-size: 42px;
+          line-height: 54px;
+          font-family: 'Open Sans', sans-serif;
+          color: lightgrey;
+          margin-top: 0px;
+        }
+
+        .mission {
+          font-family: 'Open Sans', sans-serif;
+          font-size: 16px;
+          line-height: 24px;
+          text-align: center;
+          width: 70%;
+          margin-left: 15%;
+          margin-top: 5%;
+        }
+
+        .moreArrow {
+          position: absolute;
+          top: 88vh;
+          text-align: center;
+          width: 85%;
+        }
+
+        .moreArrow p {
+          margin-bottom: 0px;
+          font-family: 'Libre Baskerville', serif;
+          font-size: 12px;
+        }
+
+        .moreArrow a {
+          color: black;
+        }
+
+      </style>
+    </head>
+
+    <body>
+      <div class="shape-container">
+        <img class="circle" src="images/circle.svg">
+        <img class="little-circle" src="images/circle-little.svg">
+        <img class="line-diagonal" src="images/line-diagonal.svg">
+        <img class="line-vertical" src="images/line-vertical.svg">
+        <img class="line" src="images/line.svg">
+        <img class="pentagon" src="images/pentagon.svg">
+        <img class="semi-circle" src="images/semi-circle.svg">
+        <img class="semi-square" src="images/semi-square.svg">
+        <img class="square" src="images/square.svg">
+        <img class="triangle" src="images/triangle.svg">
+      </div>
+
+      <div class="socialMediaSidebar">
+         <p class="socialContact">
+          <a class="linkedin" href="https://www.linkedin.com/in/malinking/" target="_blank">LinkedIn</a><span> / </span><a class="instagram" href="https://www.instagram.com/fitfouraking/?hl=en" target="_blank">Instagram</a><span> / </span><a class="tumblr" href="http://malinking.tumblr.com/">Gallery</a><span> / </span><a class="email" href="mailto:malinbking@gmail.com">Email</a></p>
+      </div>
+
+      <div class="container headlineIntro">
+        <div class="row">
+          <h1 class="name"><span class="malinKing">Malin King</span> is a</h1>
+          <p id="jobTitle"></p>
+        </div>
+        <div class="row">
+          <p class="mission">
+            Providing small businesses &amp; ambitious startups <br />with elegant solutions to complex problems.
+            <br />
+            Differentiation and deep learning are key.
+          </p>
+        </div>
+        <div class="moreArrow">
+          <p><a href="#who">ABOUT</a></p>
+          <i class="material-icons">keyboard_arrow_down</i>
+        </div>
+      </div>
+
+      <div class="aboutSection container">
+        <div class="row">
+          <div id="who" class="section scrollspy col s12 m4">
+            <p>WHO?</p>
+          </div>
+          <div class="col s12 m8">
+            <p>
+              Malin has a background in all aspects of business from management and operations to sales and hospitality. He has worked with Travel + Leisure's #6 ranked Resort in the U.S, guided boutique hotel clients to coveted New York Times coverage &amp; five-bubble TripAdvisor reviews, launched the Denver &amp; Phoenix markets of a tech startup with over $110 million in current funding, promoted the Best Ski Resort of 2016 as designated by 'On The Snow', sold adventure travel tours with Condé Nast Traveler's #1 World’s Best River Cruise Line 2016, and much more.
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div id="about" class="section scrollspy col s12 m4">
+            <p>WHAT?</p>
+          </div>
+          <div class="col s12 m8">
+            <p>
+              Currently working as a Web Designer and Front End Developer at <a style="color: #bf77f2;" href="http://bespoke.house/" target="_blank">Bespoke House</a>, he helps craft dynamic, unforgettable marketing solutions for a diverse portfolio of clients. Malin believes that we are all creators. We are all brand storytellers. We each hold the potential to become architects of amazing ideas. His approach zeroes in on the best <span style="text-decoration: line-through;">customers</span> fans, and through deep market research and a nuanced understanding of these tribes, fulfills that potential.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="wireframeSection container">
+        <div class="backgroundColorRight">
+        </div>
+        <div class="row">
+          <div class="titleRight col s12 m4 push-m7">
+            <h2>Mockups &amp; Prototypes</h2>
+          </div>
+          <div class="imageLeft1 col s12 m5 pull-m3">
+            <a href="https://xd.adobe.com/view/cf1f0937-f5b7-4177-8bbd-6e097ee3f34d/" target="_blank">
+              <img class="tileImage z-depth-2" src="images/cag-mockup.jpg">
+            </a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="imageLeft2 col s12 s12 m5 push-m1 l5 push-l2">
+            <a href="https://xd.adobe.com/view/285708c1-4c31-4d3c-97ad-edbf686f2edf/" target="_blank">
+              <img class="tileImage z-depth-2" src="images/ack-culinary.png">
+            </a>
+          </div>
+          <div class="bodyCopy col s12 m5 push-m2 l4 push-l3">
+            <p>A mockup is a static visual design draft of a design or device, used to represent the structure of information, visualize the content and demonstrate the basic functionalities in a static way. Mockups are usually built to give the viewer a more realistic impression of how the end product will look. Malin's skillset includes simple whiteboaring and sketches as well as detailed Adobe Photoshop, Illustrator &amp; Expereience Design creations.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="webDevSection container">
+        <div class="backgroundColorLeft">
+        </div>
+        <div class="row">
+          <div class="titleRight col s12 m4 push-m1">
+            <h2>Web Design &amp; Development</h2>
+          </div>
+          <div class="imageRight1 col s12 m5 push-m2 l5 push-l2">
+            <a href="http://www.threechimneysinn.com/" target="_blank">
+              <img class="tileImage z-depth-2" src="images/three-chimneys-desktop.jpg">
+            </a>
+          </div>
+        </div>
+
+        <div class="row">
+        <div class="bodyCopy col s12 m5 l3">
+            <p>From implementing front-end code (HTML, CSS, JAVASCRIPT, AJAX, etc.) to configuring content management systems and building web applications, creating clean, modular and elegant code is my passion.</p>
+          </div>
+          <div class="imageRight2 col s12 m5 push-m1 l5 push-l1">
+            <a href="http://www.blackdolphininn.com/" target="_blank">
+             <img class="tileImage z-depth-2" src="images/black-dolphin-desktop.jpg">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="logoSection containerFluid">
+        <div class="backgroundColorFull"></div>
+        <div class="row">
+          <h2 class="headlineCenter">Branding &amp; Logo</h2>
+          <div class="col s12 m4">
+            <img class="tileImage z-depth-2 materialboxed" src="images/blue-ribbon-logo.jpg">
+          </div>
+          <div class="col s12 m4">
+            <img class="tileImage z-depth-2 materialboxed" src="images/spentwell-logo.jpg">
+          </div>
+          <div class="col s12 m4">
+            <img class="tileImage z-depth-2 materialboxed" src="images/lucas-logo.jpg">
+          </div>
+        </div>
+      </div>
+
+      <div class="prodManagementSection container">
+        <div class="backgroundColorRight">
+        </div>
+        <div class="row">
+          <div class="titleRight col s12 m4 push-m7">
+            <h2>Product Management</h2>
+          </div>
+          <div class="imageLeft1 col s12 m5 pull-m3">
+            <a href="images/summit-tides-brewing.pdf" target="_blank"><img class="tileImage z-depth-2" src="images/summit-tides-brewing.png"></a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="imageLeft2 col s12 m5 push-m1 l5 push-l2">
+            <img style="position: absolute; top: 0; right: 9px; width: 90%; height: 97.5%;" class="tileImage" src="images/coming-soon-banner.png">
+            <img class="tileImage z-depth-2" src="images/spentwell-2.png">
+          </div>
+          <div class="bodyCopy col s12 m5 push-m2 l4 push-l3">
+            <p>Applying product management best practices ensures products and features solve real problems for your customers. Malin has experience creating roadmaps, business model canvas, MVP, key metrics, personas, wireframing, stakeholder management plans, and more.  The end goal is launching viable, market‐ready products that anticipate user needs by making tough decisions and working with stakeholders.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="emailSection container">
+        <div class="backgroundColorLeft">
+        </div>
+        <div class="row">
+          <div class="titleRight col s12 m4 push-m1">
+            <h2>HTML Email Design</h2>
+          </div>
+          <div class="imageRight1 col s12 m5 push-m2 l5 push-l2">
+            <a href="http://bespokehouse.dev.wildhoneymedia.com/email/innspire-template-1.html" target="_blank">
+              <img class="tileImage z-depth-2" src="images/bespoke-conference-email.jpg">
+            </a>
+          </div>
+        </div>
+
+        <div class="row">
+        <div class="bodyCopy col s12 m5 l3">
+            <p>Mailchimp, Constant Contact, Sendgrid...whatever your email marketing platform, Malin can design and code custom templates that fit any occasion and audience. </p>
+          </div>
+          <div class="imageRight2 col s12 m5 push-m1 l5 push-l1">
+            <a href="http://bespokehouse.dev.wildhoneymedia.com/email/FridayShare/issue-57.html" target="_blank">
+              <img class="tileImage z-depth-2" src="images/friday-share-email.jpg">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="logoSection containerFluid">
+        <div class="backgroundColorFull"></div>
+        <div class="row">
+          <h2 class="headlineCenter">Photography</h2>
+          <div class="col s12 m4">
+            <a href="http://malinking.tumblr.com/">
+              <img class="tileImage z-depth-2" src="images/puerto-varas.jpg">
+            </a>
+          </div>
+          <div class="col s12 m4">
+            <a href="http://malinking.tumblr.com/">
+              <img class="tileImage z-depth-2" src="images/iceland.jpg">
+            </a>
+          </div>
+          <div class="col s12 m4">
+            <a href="http://malinking.tumblr.com/">
+              <img class="tileImage depth-2" src="images/skyward-fall.jpg">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footerSection">
+        <div class="row">
+          <p>&copy; 2017 Malin King <br />Made with &hearts; in Boston, MA.</p>
+        </div>
+      </div>
+
+
+
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/jquery.typeit/4.3.0/typeit.min.js"></script>
+      <script type="text/javascript">
+        $( document ).ready(function() {
+          $('#jobTitle').typeIt({
+           strings: ["Web Designer.", "Javascript Developer.", "Product Manager.", "Operations Expert.", "Customer Service Pro.", "Photographer.", "Creative Writer.", "World Traveler."],
+           speed: 150,
+           breakLines: false,
+           autoStart: true,
+           loop: true,
+           lifeLike: true,
+           deleteSpeed: 75,
+           breakLines: false,
+           deleteDelay: 1500
+          });
+
+          $('.scrollspy').scrollSpy();
+
+        });
+      </script>
+    </body>
+  </html>
