@@ -43,7 +43,7 @@
 .pentagon {
   position: absolute;
   top: 30%;
-  right: 1%;
+  right: 4%;
   opacity: 1;
   -webkit-animation: pentagon 10s infinite ease-in-out;
   animation: pentagon 10s infinite ease-in-out;
@@ -139,11 +139,13 @@
 @keyframes lineVertical {0%{bottom:10px;} 50%{bottom:45px;} 100%{bottom:10px;}}
 
 
-.container p {
+.container p, .container ul {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 24px;
 }
+
+.hyperlink { color: #bf77f2; }
 
 #who p, #about p {
   font-family: 'Libre Baskerville', serif;
